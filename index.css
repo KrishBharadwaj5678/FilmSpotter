@@ -162,34 +162,34 @@ p.plot-desc{
     }
 
     h4.invalid{
-        height: 6.6vw;
-        font-size: 3vw;
+        height: 7.4vw;
+        font-size: 3.4vw;
     }
     
     h3.top-head{
-        font-size: 4.3vw;
-        margin: 4.6vw 0vw 0vw 0vw;
+        font-size: 4.6vw;
+        margin: 4.9vw 0vw 0vw 0vw;
     }
 
     p.para{
-        font-size: 3vw;
-        line-height: 4.9vw;
-        margin: 2.6vw 4vw 5vw 4vw;
+        font-size: 3.2vw;
+        line-height: 5.2vw;
+        margin: 2.6vw 4.4vw 5vw 4.4vw;
     }
 
     input.movie-name,input.release-year{
         width: 70vw;
         margin: 3vw auto 0px auto;
-        height: 6.6vw;
+        height: 8.7vw;
         padding-left: 2vw;
-        font-size: 2.7vw;    
+        font-size: 3.4vw;    
     }
 
     button.btn-search{
         width: 70vw;
         margin: 4vw auto 0px auto;
-        height: 6.6vw;
-        font-size: 3.3vw;
+        height: 8.7vw;
+        font-size: 3.9vw;
     }
 
     img.movie-image{
