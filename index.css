@@ -222,7 +222,7 @@ p.plot-desc{
     }
     
     p.plot{
-        font-size: 3.8vw;
+        font-size: 4vw;
     }
     
     p.plot-desc{
@@ -273,6 +273,10 @@ p.plot-desc{
 }
 
 @media (601px <= width <= 1200px){
+
+    div.output{
+        margin: 8.4vw auto 0px auto;
+    } 
 
     h3.top-head{
         margin: 5.1vw 0vw 0vw 0vw;
