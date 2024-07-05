@@ -135,32 +135,32 @@ let addData=(data)=>{
         </div>`;
 
 
-        function isMobileDevice() {
-            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        }
+        // function isMobileDevice() {
+        //     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        // }
         
         // Adding Scroll Trigger Effect in Movie Information
-        if(!isMobileDevice()){
+        // if(!isMobileDevice()){
+        //     t.from("div.box,div.box2",{
+        //         opacity:0,
+        //         x:-10,
+        //         stagger:0.2,
+        //         scrollTrigger:{
+        //             trigger:"div.box,div.box2",
+        //             scroller: "body",
+        //             scrub: 4,
+        //             start: "top 74%",
+        //             end: "top 0%"
+        //         }
+        //     })
+        // }
+        // else{
             t.from("div.box,div.box2",{
                 opacity:0,
                 x:-10,
                 stagger:0.2,
-                scrollTrigger:{
-                    trigger:"div.box,div.box2",
-                    scroller: "body",
-                    scrub: 4,
-                    start: "top 74%",
-                    end: "top 0%"
-                }
             })
-        }
-        else{
-            t.from("div.box,div.box2",{
-                opacity:0,
-                x:-10,
-                stagger:0.2,
-            })
-        }
+        // }
        
 
 }
