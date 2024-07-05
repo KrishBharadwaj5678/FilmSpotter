@@ -200,7 +200,7 @@ p.plot-desc{
     
     div.output{
         width: 69vw;
-        margin: 5vw auto 0px auto;
+        margin: 6vw auto 0px auto;
     } 
     
     div.box{
@@ -239,6 +239,12 @@ p.plot-desc{
         padding-bottom: 6.9vw;
     }
 
+    p.para{
+        font-size: 3.8vw;
+        line-height: 6vw;
+        margin: 3.4vw 4.5vw 5vw 4.5vw;
+    }
+
     div.output{
         margin: 8vw auto 0px auto;
     } 
@@ -248,12 +254,12 @@ p.plot-desc{
     }
     
     p.title{
-        font-size: 3.5vw;
+        font-size: 4.2vw;
     }
     
     p.subtitle{
-        font-size: 3.4vw;
-        line-height: 5.6vw;
+        font-size: 4.2vw;
+        line-height: 6.2vw;
         margin: 0vw 0vw 0vw 7vw;
     }
          
@@ -262,20 +268,20 @@ p.plot-desc{
     }
     
     p.plot{
-        font-size: 3.7vw;
+        font-size: 4.2vw;
     }
     
     p.plot-desc{
         margin: 2.6vw 0vw 0vw 0vw;
-        font-size: 3.3vw;
-        line-height: 5.4vw;
+        font-size: 4.2vw;
+        line-height: 6.7vw;
     } 
 }
 
 @media (601px <= width <= 1200px){
 
     div.output{
-        margin: 8.4vw auto 0px auto;
+        margin: 7vw auto 0px auto;
     } 
 
     h3.top-head{
