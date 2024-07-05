@@ -135,7 +135,7 @@ let addData=(data)=>{
         </div>`;
 
         // Adding Scroll Trigger Effect in Movie Information
-        console.log(window.innerWidth,(window.innerHeight))
+      
         if(window.innerWidth>=1250 && window.innerHeight>=700){
             t.from("div.box,div.box2",{
                 opacity:0,
