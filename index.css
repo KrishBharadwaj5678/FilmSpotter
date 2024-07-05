@@ -240,8 +240,8 @@ p.plot-desc{
     }
 
     p.para{
-        font-size: 3.8vw;
-        line-height: 6vw;
+        font-size: 3.6vw;
+        line-height: 6.2vw;
         margin: 3.4vw 4.5vw 5vw 4.5vw;
     }
 
@@ -250,7 +250,7 @@ p.plot-desc{
     } 
 
     div.box{
-        margin: 4.8vw 0vw 0vw 0vw;
+        margin: 4vw 0vw 0vw 0vw;
     }
     
     p.title{
@@ -307,5 +307,4 @@ p.plot-desc{
         font-size: 3.4vw;
         line-height: 5.9vw;   
     } 
- 
 }
