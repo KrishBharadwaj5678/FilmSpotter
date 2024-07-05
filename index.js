@@ -155,11 +155,11 @@ let addData=(data)=>{
         //     })
         // }
         // else{
-            t.from("div.box,div.box2",{
-                opacity:0,
-                x:-10,
-                stagger:0.2,
-            })
+            // t.from("div.box,div.box2",{
+            //     opacity:0,
+            //     x:-10,
+            //     stagger:0.2,
+            // })
         // }
        
 
