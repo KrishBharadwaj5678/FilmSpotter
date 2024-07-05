@@ -28,8 +28,6 @@ t.from(search_btn,{
 })
 
 let addData=(data)=>{
-   console.log(data);
-
    main.style.paddingBottom=`1.6vw`;
    output.style.display="block";
     // Movie Image
@@ -62,7 +60,7 @@ let addData=(data)=>{
    if(revenue=="undefined"){
      revenue="N/A";
    }
-
+    
    output.innerHTML=`
         <div class="box">
             <p class="title">Title</p>
@@ -156,8 +154,6 @@ let addData=(data)=>{
                 stagger:0.2,
             })
         }
-       
-
 }
 
 search_btn.addEventListener("click",()=>{
@@ -190,10 +186,8 @@ search_btn.addEventListener("click",()=>{
                         display:"none",
                         text:""
                     })
-
                     addData(data);
                 }
-
              }
              else{
                 let url=await fetch(`https://www.omdbapi.com/?t=${movie_name}&y=${release_year}&plot=full&apikey=96ed9186`);
@@ -215,12 +209,9 @@ search_btn.addEventListener("click",()=>{
                         text:""
                     })
 
-                    addData(data);
-
+                   addData(data);
                 }
-
-             }
-            
+             }  
         }
         GetMovie()
 
@@ -245,5 +236,4 @@ search_btn.addEventListener("click",()=>{
             text:"Enter a Valid Year"
         })
     }
-
 })
