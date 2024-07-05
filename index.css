@@ -172,8 +172,8 @@ p.plot-desc{
     }
 
     p.para{
-        font-size: 3.2vw;
-        line-height: 5.2vw;
+        font-size: 3.4vw;
+        line-height: 5.5vw;
         margin: 2.6vw 4.4vw 5vw 4.4vw;
     }
 
@@ -222,7 +222,7 @@ p.plot-desc{
     }
     
     p.plot{
-        font-size: 3.6vw;
+        font-size: 3.8vw;
     }
     
     p.plot-desc{
@@ -274,13 +274,28 @@ p.plot-desc{
 
 @media (601px <= width <= 1200px){
 
+    h3.top-head{
+        margin: 5.1vw 0vw 0vw 0vw;
+    }
+
+    p.para{
+        font-size: 3vw;
+        line-height: 5.7vw;
+        margin: 2.6vw 4.4vw 5vw 4.4vw;
+    }
+
+    div.box2{
+        margin: 5vw 0vw 0vw 0vw;
+    }
+
     p.subtitle{
         font-size: 3.5vw;
         line-height: 5.5vw;   
     }
          
     p.plot-desc{
-        font-size: 3.5vw;
+        font-size: 3.4vw;
+        line-height: 5.9vw;   
     } 
  
 }
