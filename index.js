@@ -134,9 +134,13 @@ let addData=(data)=>{
             <p class="plot-desc">${data["Plot"]}</p>
         </div>`;
 
+
+        function isMobileDevice() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+        
         // Adding Scroll Trigger Effect in Movie Information
-      
-        if(window.innerWidth>=1250 && window.innerHeight>=700){
+        if(!isMobileDevice()){
             t.from("div.box,div.box2",{
                 opacity:0,
                 x:-10,
