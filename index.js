@@ -177,7 +177,7 @@ search_btn.addEventListener("click",()=>{
 
         async function GetMovie(){
             if(release_year.length!=4){
-                let url=await fetch(`http://www.omdbapi.com/?t=${movie_name}&plot=full&apikey=96ed9186`);
+                let url=await fetch(`https://www.omdbapi.com/?t=${movie_name}&plot=full&apikey=96ed9186`);
                 let data=await url.json();
                 if(data["Response"]=="False"){
                    // Invalid Movie Name 
@@ -201,7 +201,7 @@ search_btn.addEventListener("click",()=>{
 
              }
              else{
-                let url=await fetch(`http://www.omdbapi.com/?t=${movie_name}&y=${release_year}&plot=full&apikey=96ed9186`);
+                let url=await fetch(`https://www.omdbapi.com/?t=${movie_name}&y=${release_year}&plot=full&apikey=96ed9186`);
                 let data=await url.json();
                 // Invalid Movie Name and Year
                 if(data["Response"]=="False"){
