@@ -193,8 +193,8 @@ p.plot-desc{
     }
 
     img.movie-image{
-        width: 37vw;
-        height: 40vw;
+        width: 45vw;
+        height: 45vw;
         margin: 6vw auto 0vw auto;
     }
     
@@ -204,15 +204,15 @@ p.plot-desc{
     } 
     
     div.box{
-        margin: 4.3vw 0vw 0vw 0vw;
+        margin: 4.9vw 0vw 0vw 0vw;
     }
     
     p.title{
-        font-size: 3.6vw;
+        font-size: 3.8vw;
     }
     
     p.subtitle{
-        font-size: 3.3vw;
+        font-size: 3.6vw;
         line-height: 5vw;
         margin: 0vw 0vw 0vw 7vw;
     }
@@ -227,8 +227,8 @@ p.plot-desc{
     
     p.plot-desc{
         margin: 2.1vw 0vw 0vw 0vw;
-        font-size: 3.3vw;
-        line-height: 5.7vw;
+        font-size: 3.5vw;
+        line-height: 6vw;
     } 
     
 }
